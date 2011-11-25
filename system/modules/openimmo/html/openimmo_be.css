@@ -1,0 +1,56 @@
+div.tl_oi_object_entry {
+    margin: 10px;
+    clear:both;
+    width: 100%;
+    overflow: hidden;
+}
+
+div.tl_oi_object_entry .img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+div.tl_oi_object_entry .text {
+    margin: 2px;
+    float: left;
+}
+
+    div.tl_oi_object_entry .text .title {
+        font-weight:bold;
+        margin-bottom: 6px;
+    }
+
+    div.tl_oi_object_entry .indicators {
+        float: right;
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-right: 18px;
+    }
+    
+        div.tl_oi_object_entry .indicators div+div {
+            margin-left: 4px;
+        }
+        div.tl_oi_object_entry .indicators div {
+            width: 16px;
+            height: 16px;
+            float: left;
+            cursor: help;
+        }
+    
+        div.tl_oi_object_entry .indicators .inactive {
+            opacity: 0.2;
+            cursor: default;
+        }
+        div.tl_oi_object_entry .indicators .geo {
+            background: url('icon_geo.png') no-repeat scroll 0 0;
+        }
+
+div.tl_oi_object_entry .link {
+    float: right;
+    line-height: 50px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
